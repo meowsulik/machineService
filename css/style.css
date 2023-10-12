@@ -37,6 +37,9 @@ p {
     min-width: 200px;
     padding: 0px 15px;
     transition: .2s ease;
+    cursor: pointer;
+    outline: 0;
+    border: 0;
 }
 
 
@@ -530,5 +533,72 @@ p {
     left: 20px;
     pointer-events: none;
     transition: all .2s ease;
+}
 
+
+.textarea {
+    min-height: 130px;
+    width: 100%;
+    padding: 9px;
+    resize: vertical;
+    outline: 0;
+    border: 0;
+    color: #fff;
+    font-family: inherit;
+    font-size: 15px;
+    border-bottom: 1px solid #fff;
+    background-color: transparent;
+    margin-bottom: 37px;
+}
+
+
+.textarea:focus + .label {
+    transform: translateY(-15px);
+    font-size: 12px;
+}
+
+.textarea:focus + .label {
+    transform: translateY(-15px);
+    font-size: 12px;
+}
+
+/* контакты закончили */
+
+/* футеры ачали */
+
+.footer {
+
+}
+
+
+.footer__wrapper {
+    height: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.copyright {
+    letter-spacing: 0.15em;
+}
+
+
+
+.footer__soc {
+    display: flex;
+}
+
+
+.footer__soc-link {
+    margin-right: 20px;
+    text-decoration: none;
+}
+
+.footer__soc-link:last-child {
+    margin-right: 0;
+}
+
+
+.footer__soc-link img {
+    height: 25px;
 }
